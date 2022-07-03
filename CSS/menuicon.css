@@ -1,7 +1,7 @@
 input{display:none;}
 label span
 {
-    background-color:rgb(248, 248, 248);
+    background-color:white;
     cursor: pointer; 
     display:block; 
     width: 25px; 
@@ -13,6 +13,7 @@ label span
     z-index:1;
     transition: all 0.3s ease-in-out;
 }
+
 
 label span:nth-child(1){ margin-top:0px;}
 label span:nth-child(2){ margin-top:8px;}
@@ -48,4 +49,43 @@ input[type="checkbox"]:checked ~ label span:nth-child(2){
 }
 
 input[type="checkbox"]:checked ~ label span:nth-child(3){opacity:0;}
+
+ul{
+    position:absolute;
+    top:10%;
+    left:2%;
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    border: 1px white solid;
+    border-right: none;
+    border-left: none;
+    background-color: black;
+    display: block;
+    width: 250px;
+}
+a:hover{
+    background-color: rgb(161, 139, 139);
+}
+
+#menu{
+    left:-270px;
+    position: absolute;
+    height:500px;
+    width:256px;
+    background-color:black;
+    transition: all 0.5s;
+}
+
+    
+input[type="checkbox"]:checked ~ #menu{
+    left:0px;
+    top:8%;
+    z-index:1;
+    
+} 
+
 
