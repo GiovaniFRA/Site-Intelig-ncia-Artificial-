@@ -1,0 +1,70 @@
+#foto1{
+    position:absolute;
+    width:100px;
+    height:100px;
+   
+}
+
+#foto2{
+    position:absolute;
+    width:100px;
+    height:100px;
+  
+}
+
+#foto3{
+    position:absolute;
+    width:100px;
+    height:100px;
+   
+}
+
+article{
+    position:absolute;
+    left: 1%;
+    top:10%;
+    height:80%;
+    width:80%;
+}
+
+#igor{
+    margin-top:30px;
+    background-color: white;
+    width:35% ;
+    height:25%;
+}
+#foto1{
+  position:absolute;
+  left:25%;
+  top:13%;
+}
+
+#gi{
+    margin-top:30px;
+    background-color: white;
+    width:35% ;
+    height:25%;
+}
+#foto2{
+    position:absolute;
+    left:25%;
+    top:45%;
+  }
+
+#bia{
+    margin-top:30px;
+    background-color: white;
+    width:35% ;
+    height:25%;
+}
+#foto3{
+    position:absolute;
+    left:25%;
+    top:75%;
+  }
+
+  div{
+    opacity:0.8;
+  }
+
+
